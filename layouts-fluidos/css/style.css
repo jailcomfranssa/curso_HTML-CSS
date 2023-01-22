@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: gray;
+    overflow: hidden;
+    
+}
+
+h1, h2, p{
+    margin-bottom: 20px;
+}
+
+div{
+    padding: 20px 0;
+    margin: 0;
+    
+}
+
+.width-100{
+    width: 100%;
+    width: 100vw; 
+    background-color: aqua;
+    padding: 20px 0;
+    height: 400px;
+    
+}
+
+nav{
+    background-color: blueviolet;
+    width: 20%;
+    float: left;
+    display: table;
+    height: 100%;
+    
+}
+
+article{
+    background-color: ivory;
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+    
+}
+
+.fixed-width{
+    background-color: lawngreen;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
